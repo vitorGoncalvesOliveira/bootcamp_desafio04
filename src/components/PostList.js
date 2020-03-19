@@ -98,8 +98,8 @@ class PostList extends Component {
     <div className="postList">      
       {
         this.state.posts.map( post => 
-          <div className="card">
-            <PostItem  key={post.id} post={post} />
+          <div  className="card">
+            <PostItem key={post.id}  post={post} />
           </div>
           )  
       }
