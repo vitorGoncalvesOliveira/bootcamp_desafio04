@@ -1,5 +1,41 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
     background-color: #7159c1;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+header > nav > h3 {
+    display: inline;
+}
+
+header > nav > div > span {
+    padding-right: 10px;
+}
+
+header > nav > div {
+    display: flex;
+    align-items: center;
+}
+.alingRight{
+    float: right;
+    padding-bottom: 30px;
+}
+
+.img-perfil{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.img-perfil-coment{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
 }
